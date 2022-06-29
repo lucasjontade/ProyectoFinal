@@ -13,11 +13,7 @@
 
     .contenido__titulo {
         grid-area: titulo;
-        font-weight: 200;
-        color: rgb(1, 32, 97);
-        font-size: 40px;
-        font-family: 'Amaranth', sans-serif;
-        text-align: center;
+        @extend %contenidotitulo;
     }
 
     .contenido__imagen1 {
