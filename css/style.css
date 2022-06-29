@@ -21,27 +21,24 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: colorprincipal; }
-
-.header__logo img {
-  max-width: 300px;
-  background-color: transparent; }
+  background-color: black; }
+  .header__logo img {
+    max-width: 300px;
+    background-color: transparent; }
 
 .nav {
   grid-area: nav;
-  background: colorprincipal; }
-
-.nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style-type: none; }
-
-.nav ul li:hover {
-  background-color: #efe8b3;
-  transform: scale(1.5);
-  padding: 3px;
-  border-radius: 15px; }
+  background-color: black; }
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none; }
+    .nav ul li:hover {
+      background-color: #efe8b3;
+      transform: scale(1.5);
+      padding: 3px;
+      border-radius: 15px; }
 
 .nav2 {
   margin: 20px; }
@@ -54,7 +51,7 @@
   grid-auto-flow: row;
   grid-template-areas: "logo logo logo" "nav nav nav" "banner banner banner";
   grid-area: header;
-  background-color: #0f0d0d;
+  background-color: black;
   align-items: stretch; }
 
 .header {
@@ -69,7 +66,6 @@
   align-items: stretch; }
   .header .banner {
     grid-area: banner;
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center; }

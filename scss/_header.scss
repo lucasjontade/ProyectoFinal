@@ -9,11 +9,10 @@
       "nav nav nav"
       "banner banner banner";
     grid-area: header;
-    background-color: black;
+    background-color: $colorprincipal;
     align-items: stretch;
     .banner{
         grid-area: banner;
-        background-color: black;
         display: flex;
         flex-direction: row;
         justify-content: center;
