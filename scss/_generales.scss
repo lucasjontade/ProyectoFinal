@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.body {
+    display: grid;
+    grid-template-columns: 0.7fr 1.1fr 1.2fr;
+    grid-template-rows: 0.7fr 1.8fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header"
+      "aside contenido contenido"
+      "footer footer footer";
+  }
