@@ -187,6 +187,32 @@
     flex-direction: column;
     text-align: center; }
 
+.locales {
+  grid-area: formulario;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 70%;
+  margin: auto; }
+  .locales div {
+    margin: 30px; }
+  .locales h1 {
+    color: #012061;
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+    background-color: linen;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em black; }
+  .locales div h4 {
+    font-weight: 400;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: #012061; }
+  .locales div p {
+    font-weight: 300;
+    font-family: 'Kalam', cursive;
+    font-size: 20px; }
+
 @media (max-width: 587px) {
   .contenido {
     grid-area: contenido;
