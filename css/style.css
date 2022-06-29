@@ -167,6 +167,26 @@
     font-size: 40px;
     margin-bottom: 50px; }
 
+.prod {
+  grid-area: formulario;
+  background-color: #343131;
+  font-size: 24px;
+  font-weight: 800;
+  color: gold; }
+  .prod ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto; }
+  .prod .conitos {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+
 @media (max-width: 587px) {
   .contenido {
     grid-area: contenido;
