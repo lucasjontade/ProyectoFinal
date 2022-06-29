@@ -13,3 +13,61 @@
       "aside contenido contenido"
       "footer footer footer";
   }
+
+  .body2 {
+    display: grid;
+    grid-template-columns: 0.7fr 1.1fr 1.2fr;
+    grid-template-rows: 0.7fr 2.0fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header"
+      "formulario formulario formulario"
+      "footer footer footer";
+  }
+
+  .header__logo{
+    grid-area: logo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: colorprincipal
+}
+.header__logo img{
+    max-width: 300px;
+    background-color: transparent;
+}
+.nav{
+  grid-area: nav;
+  background: colorprincipal
+  }
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none; 
+  }  
+.nav ul li:hover {
+  background-color: rgb(239, 232, 179);
+  transform: scale(1.5);
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.nav2 {
+  margin: 20px;
+}
+
+.header2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "logo logo logo"
+    "nav nav nav"
+    "banner banner banner";
+  grid-area: header;
+  background-color: rgb(15, 13, 13);
+  align-items: stretch;
+}  

@@ -9,6 +9,54 @@
   gap: 0px 0px;
   grid-template-areas: "header header header" "aside contenido contenido" "footer footer footer"; }
 
+.body2 {
+  display: grid;
+  grid-template-columns: 0.7fr 1.1fr 1.2fr;
+  grid-template-rows: 0.7fr 2.0fr 0.2fr;
+  gap: 0px 0px;
+  grid-template-areas: "header header header" "formulario formulario formulario" "footer footer footer"; }
+
+.header__logo {
+  grid-area: logo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: colorprincipal; }
+
+.header__logo img {
+  max-width: 300px;
+  background-color: transparent; }
+
+.nav {
+  grid-area: nav;
+  background: colorprincipal; }
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none; }
+
+.nav ul li:hover {
+  background-color: #efe8b3;
+  transform: scale(1.5);
+  padding: 3px;
+  border-radius: 15px; }
+
+.nav2 {
+  margin: 20px; }
+
+.header2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "logo logo logo" "nav nav nav" "banner banner banner";
+  grid-area: header;
+  background-color: #0f0d0d;
+  align-items: stretch; }
+
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,28 +67,6 @@
   grid-area: header;
   background-color: black;
   align-items: stretch; }
-  .header .header__logo {
-    grid-area: logo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: colorprincipal; }
-  .header .header__logo img {
-    max-width: 300px;
-    background-color: transparent; }
-  .header .nav {
-    grid-area: nav;
-    background: colorprincipal; }
-  .header .nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none; }
-  .header .nav ul li:hover {
-    background-color: #efe8b3;
-    transform: scale(1.5);
-    padding: 3px;
-    border-radius: 15px; }
   .header .banner {
     grid-area: banner;
     background-color: black;
@@ -124,6 +150,22 @@
       font-size: 25px; }
   .aside .aside__titulo {
     margin-top: 80px; }
+
+.nosotros {
+  grid-area: formulario;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin: auto; }
+  .nosotros div p {
+    font-size: 20px;
+    color: goldenrod; }
+  .nosotros h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 40px;
+    margin-bottom: 50px; }
 
 @media (max-width: 587px) {
   .contenido {

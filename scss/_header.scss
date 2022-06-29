@@ -11,33 +11,6 @@
     grid-area: header;
     background-color: black;
     align-items: stretch;
-    .header__logo{
-        grid-area: logo;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: colorprincipal
-    }
-    .header__logo img{
-        max-width: 300px;
-        background-color: transparent;
-    }
-    .nav{
-        grid-area: nav;
-        background: colorprincipal
-        }
-    .nav ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style-type: none; 
-        }  
-    .nav ul li:hover {
-        background-color: rgb(239, 232, 179);
-        transform: scale(1.5);
-        padding: 3px;
-        border-radius: 15px;
-    }
     .banner{
         grid-area: banner;
         background-color: black;
