@@ -73,11 +73,11 @@
 // extend
 %contenidotitulo{
   font-weight: 200;
-  color: rgb(1, 32, 97);
+  font-size: 40px;
 }
 // mixin
 @mixin fontstyle{
-  font-size: 40px;
+  color: rgb(1, 32, 97);
   font-family: 'Amaranth', sans-serif;
   text-align: center;
 }

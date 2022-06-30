@@ -56,7 +56,7 @@
 
 .contenido .contenido__titulo {
   font-weight: 200;
-  color: #012061; }
+  font-size: 40px; }
 
 .header {
   display: grid;
@@ -105,7 +105,7 @@
   margin-left: 20px; }
   .contenido .contenido__titulo {
     grid-area: titulo;
-    font-size: 40px;
+    color: #012061;
     font-family: 'Amaranth', sans-serif;
     text-align: center; }
   .contenido .contenido__imagen1 {
