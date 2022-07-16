@@ -219,7 +219,8 @@
       border-radius: 10px;
       color: black;
       background-color: #919191;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-bottom: 15px; }
       .formulario .form button:hover {
         background-color: black;
         color: white;
