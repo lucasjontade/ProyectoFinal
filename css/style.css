@@ -16,29 +16,14 @@
   gap: 0px 0px;
   grid-template-areas: "header header header" "formulario formulario formulario" "footer footer footer"; }
 
-.header__logo {
-  grid-area: logo;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: black; }
-  .header__logo img {
-    max-width: 300px;
-    background-color: transparent; }
+.navbar-brand img {
+  max-width: 200px; }
 
-.nav {
-  grid-area: nav;
+.nav-link {
+  color: gold; }
+
+.container-fluid {
   background-color: black; }
-  .nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none; }
-    .nav ul li:hover {
-      background-color: #efe8b3;
-      transform: scale(1.5);
-      padding: 3px;
-      border-radius: 15px; }
 
 .nav2 {
   margin: 20px; }
@@ -60,14 +45,25 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.8fr 0.4fr 1.8fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.8fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "logo logo logo" "nav nav nav" "banner banner banner";
+  grid-template-areas: "nav" "banner";
   grid-area: header;
   background-color: black;
   align-items: stretch; }
+
+.banner {
+  grid-area: banner;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.banner img {
+  max-width: 100%;
+  margin-top: 0%; }
 
 .footer {
   grid-area: footer;
@@ -239,7 +235,7 @@
         color: white;
         transform: scale(1.2); }
 
-@media (max-width: 587px) {
+@media (max-width: 600px) {
   .contenido {
     grid-area: contenido;
     display: grid;
@@ -247,4 +243,24 @@
     grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas: "titulo titulo" "imagen1 imagen1" "imagen2 imagen2" "imagen3 imagen3" "imagen4 imagen4" "imagen5 imagen5" "imagen6 imagen6";
-    margin-left: 20px; } }
+    margin-left: 20px; }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nav" "banner";
+    grid-area: header;
+    background-color: white;
+    align-items: stretch; }
+  .body {
+    display: grid;
+    grid-template-columns: 0.7fr 1.1fr 1.2fr;
+    grid-template-rows: 0.1fr 1.8fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas: "header header header" "aside contenido contenido" "footer footer footer"; }
+  .titulo {
+    font-size: 15px; }
+  .contenido div img {
+    max-width: 150px; } }

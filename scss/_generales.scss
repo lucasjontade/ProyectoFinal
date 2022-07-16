@@ -25,33 +25,18 @@
       "footer footer footer";
   }
 
-  .header__logo{
-    grid-area: logo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: $colorprincipal;
-    img{
-      max-width: 300px;
-      background-color: transparent;
-  }
+  .navbar-brand img{
+  max-width: 200px;
 }
-.nav{
-  grid-area: nav;
-  background-color: $colorprincipal;
-  ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none; 
-    li:hover {
-      background-color: rgb(239, 232, 179);
-      transform: scale(1.5);
-      padding: 3px;
-      border-radius: 15px;
-    }
-  }
-  }  
+
+.nav-link{
+  color: gold;
+}
+
+.container-fluid{
+  background-color: black;
+}
+
 .nav2 {
   margin: 20px;
 }
