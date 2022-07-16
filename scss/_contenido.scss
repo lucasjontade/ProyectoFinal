@@ -20,42 +20,72 @@
     .contenido__imagen1 {
         grid-area: imagen1;
     }
-    .contenido__imagen1 img{
+
+    .contenido__imagen1 img {
         max-width: 200px;
+
+        &:hover {
+            filter: blur(1.5px);
+        }
     }
 
     .contenido__imagen2 {
         grid-area: imagen2;
     }
-    .contenido__imagen2 img{
+
+    .contenido__imagen2 img {
         max-width: 200px;
+
+        &:hover {
+            filter: blur(1.5px);
+        }
     }
 
     .contenido__imagen3 {
         grid-area: imagen3;
     }
-    .contenido__imagen3 img{
+
+    .contenido__imagen3 img {
         max-width: 200px;
+
+        &:hover {
+            filter: blur(1.5px);
+        }
     }
 
     .contenido__imagen4 {
         grid-area: imagen4;
     }
-    .contenido__imagen4 img{
+
+    .contenido__imagen4 img {
         max-width: 200px;
+
+        &:hover {
+            filter: blur(1.5px);
+        }
     }
 
     .contenido__imagen5 {
         grid-area: imagen5;
     }
-    .contenido__imagen5 img{
+
+    .contenido__imagen5 img {
         max-width: 200px;
+
+        &:hover {
+            filter: blur(1.5px);
+        }
     }
 
     .contenido__imagen6 {
         grid-area: imagen6;
     }
-    .contenido__imagen6 img{
+
+    .contenido__imagen6 img {
         max-width: 200px;
+
+        &:hover {
+            filter: blur(1.5px);
+        }
     }
 }

@@ -14,17 +14,6 @@
       "footer footer footer";
   }
 
-  .body2 {
-    display: grid;
-    grid-template-columns: 0.7fr 1.1fr 1.2fr;
-    grid-template-rows: 0.7fr 2.0fr 0.2fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "header header header"
-      "formulario formulario formulario"
-      "footer footer footer";
-  }
-
   .navbar-brand img{
   max-width: 200px;
 }
@@ -37,28 +26,10 @@
   background-color: black;
 }
 
-.nav2 {
-  margin: 20px;
-}
-
-.header2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "logo logo logo"
-    "nav nav nav"
-    "banner banner banner";
-  grid-area: header;
-  background-color: $colorprincipal;
-  align-items: stretch;
-}  
 // extend
 %contenidotitulo{
   font-weight: 200;
-  font-size: 40px;
+  font-size: 35px;
 }
 // mixin
 @mixin fontstyle{

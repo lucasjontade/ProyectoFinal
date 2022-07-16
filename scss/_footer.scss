@@ -5,14 +5,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-height: 200px;
     .footer__imagenes li {
         display: inline-block;
-        padding: 50px;
+        padding: 40px;
       }
     .footer__imagenes img {
-        max-width: 40px;
-        max-height: 40px;
+        max-width: 25px;
+        max-height: 25px;
         &:hover{
             transform: scale(1.5);
         }
