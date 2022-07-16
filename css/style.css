@@ -205,36 +205,37 @@
     margin: 10px; }
   .formulario p {
     text-align: center; }
-  .formulario .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .form input {
     text-align: center;
-    align-items: center; }
-    .formulario .form input {
-      text-align: center;
-      width: 200px;
-      height: 25px;
-      border-radius: 15px;
-      background-color: linen;
-      margin: 10px; }
-    .formulario .form textarea {
-      border-radius: 10px;
-      background-color: linen;
-      margin-top: 10px; }
-    .formulario .form button {
-      margin-top: 5px;
-      width: 70px;
-      height: 25px;
-      border-radius: 10px;
-      color: black;
-      background-color: #919191;
-      font-size: 15px;
-      margin-bottom: 15px; }
-      .formulario .form button:hover {
-        background-color: black;
-        color: white;
-        transform: scale(1.2); }
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: linen;
+    margin: 10px; }
+  .form textarea {
+    border-radius: 10px;
+    background-color: linen;
+    margin-top: 10px; }
+  .form button {
+    margin-top: 5px;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    background-color: #919191;
+    font-size: 15px;
+    margin-bottom: 15px; }
+    .form button:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.2); }
 
 @media (max-width: 600px) {
   .contenido {
