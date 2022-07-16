@@ -1,7 +1,4 @@
 @media (max-width: 587px) {
-  .banner {
-    display: none;
-  }
   .contenido {
     grid-area: contenido;
     display: grid;
@@ -17,8 +14,5 @@
       "imagen5 imagen5"
       "imagen6 imagen6";
     margin-left: 20px;
-  }
-  .contenido__titulo{
-    font-size: 20px;
   }
 }
