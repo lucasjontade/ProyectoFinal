@@ -1,25 +1,29 @@
 .prod {
-    grid-area: formulario;
-    background-color: rgb(52, 49, 49);
-    font-size: 24px;
-    font-weight: 800;
-    color: gold;
-    ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        list-style-type: none;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 70%;
-        margin: auto;
-      }
-      .conitos {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-      }
+  grid-area: formulario;
+  background-color: rgb(52, 49, 49);
+  font-size: 24px;
+  font-weight: 800;
+  color: gold;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
   }
-  
- 
-  
+
+  img:hover {
+    transform: scale(0.8);
+  }
+
+
+.conitos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+}

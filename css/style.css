@@ -165,6 +165,8 @@
     justify-content: center;
     max-width: 70%;
     margin: auto; }
+  .prod img:hover {
+    transform: scale(0.8); }
   .prod .conitos {
     display: flex;
     flex-direction: column;
